@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+navbar{
+	background-color: white;
+}
+.nav-link{
+	color: black;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;
+}
+.nav-link:hover{
+	color: white;
+	background-color: black;
+	
+}
+.navbar-brand{
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;right: 150px;
+}
+/*
+main section */
+.main{
+	background-image: url(./https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F27706695%2Fcss-background-gradient-with-opaque-pattern-on-top&psig=AOvVaw2cP_3tojX-nLBlOng-0M3V&ust=1739717621016000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiTuqv3xYsDFQAAAAAdAAAAABAa);
+	
+
+}
+.navbar{
+	position: relative;left: 150px;
+}
+.Input1{
+	position: relative;bottom: 100px;
+
+
+}
+.Input2{
+	position: relative;bottom: 100px;
+	
+}
+.font{
+	font-weight: bold;
+}
+.font2{
+	position: relative;left: 100px;
+	font-weight: bold;
+	
+}
+ .skill{
+	width: 500px;
+	height: 500px;
+	margin: 60px auto;
+	color: rgb(7, 88, 21);
+	padding: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0, 25),0 10px 10px rgba(0, 0, 0, 22);
+
+ }
+ .skill li{
+	margin: 20px;
+	padding: 10px;
+ }
+ .bar{
+	background: #353b48;
+	display: block;
+	height: 20px;
+	border: 1px solid rgba(0,0,0, 3);
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow:0 1px 3px rgba(0,0,0, 12),0 1px 2px rgba(0, 0, 0, 24);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+ }
+ .bar:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0, .25),0 10px 10px rgba(0, 0, 0, 22);
+ }
+.bar span{
+	height: 20px;
+	float: left;
+	background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252, 103, 103, 102)100%);
+
+}
+.HTML{
+	width: 90%;
+	animation: html 3s;
+}
+.CSS{
+	width: 70%;
+	animation: html 3s;
+}
+.JAVASCRIPT{
+	width: 80%;
+	animation: html 3s;
+}
+.MySQL{
+	width: 55%;
+	animation: html 3s;
+}
+.card{
+	border: none;
+	outline: none;
+
+}
+.card p{
+	color:gray
+}
+.circle{
+	height: 70px;
+	width: 70px;
+	background-color:lightgray;
+	color: black;
+	padding: 12px;
+	font-size:30px;
+    border-radius: 60%;
+	display: inline-block;
+	margin-bottom: 20px;
+	position: relative;left: 110px;
+
+}
+.font4{
+	font-weight: bold;
+	text-decoration: cadetblue;
+	position: relative;left: 400px;
+}
